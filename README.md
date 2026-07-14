@@ -1,4 +1,4 @@
-# AI-Native Automated PCB Quality Assurance
+# SolderMind - AI-Native Automated PCB Quality Assurance
 
 This repository contains the initial scaffold for an AI-native PCB quality assurance solution.
 It focuses on edge computer vision using OpenCV and Ultralytics YOLO, with a structured ingestion and inference pipeline.
