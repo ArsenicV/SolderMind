@@ -3,12 +3,12 @@
 This repository contains the initial scaffold for an AI-native PCB quality assurance solution.
 It focuses on edge computer vision using OpenCV and Ultralytics YOLO, with a structured ingestion and inference pipeline.
 
-## Why YOLO?
+#### Why YOLO?
 Becuase of the project's requirements and fast-paced environment, YOLO is the best in case of speed and accuracy.
 Used Transfer Learning to train this model
 
 
-## Goals
+#### Goals
 
 - Capture high-resolution PCB images from edge cameras
 - Run YOLO-based defect/anomaly detection
@@ -16,7 +16,7 @@ Used Transfer Learning to train this model
 - Provide a lightweight inference API for integration
 - Enable future extensions for CAD/Gerber verification, orchestration, and retraining
 
-## Key Components
+#### Key Components
 - `src/ai_pcb_quality/preprocessor.py` - image normalization and frame decoding
 - `src/ai_pcb_quality/vision.py` - Ultralytics YOLO inference wrapper
 - `src/ai_pcb_quality/ingestion.py` - Kafka/MQTT ingestion skeleton
@@ -24,7 +24,7 @@ Used Transfer Learning to train this model
 - `src/ai_pcb_quality/api.py` - FastAPI application for inference
 
 
-## Stack
+#### Stack
 - Python 3.11+
 - `ultralytics` YOLO for edge computer vision
 - `opencv-python-headless` for image preprocessing
