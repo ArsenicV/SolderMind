@@ -35,6 +35,7 @@ Used Transfer Learning to train this model
 
 ---
 ```
-[todo]: Planning to use Curriculum Learning and improve the accuracy of the model
-[todo]: Model evaluation
+Todo:
+[*]: Planning to use Curriculum Learning and improve the accuracy of the model
+[*]: Model evaluation
 ```
