@@ -2,6 +2,8 @@
 This repository contains the initial scaffold for an AI-native PCB quality assurance solution.
 It focuses on edge computer vision using OpenCV and Ultralytics YOLO, with a structured ingestion and inference pipeline.
 
+<br>
+
 #### Why YOLO?
 Becuase of the project's requirements and fast-paced environment, YOLO is the best in case of speed and accuracy.
 Used Transfer Learning to train this model
