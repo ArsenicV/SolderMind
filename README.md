@@ -33,5 +33,7 @@ Used Transfer Learning to train this model
 - `pydantic` for typed inference results
 
 ---
-
-[todo]: Planning to use Curriculum Learning and improve the accuracy of the model / Model evaluation.
+```
+[todo]: Planning to use Curriculum Learning and improve the accuracy of the model
+[todo]: Model evaluation
+```
