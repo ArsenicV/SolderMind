@@ -12,6 +12,10 @@ The model was finetuned from COCO pretrained YOLOv8n weights using standard tran
 
 - This repo implements the vision agent of the pipeline, which responsible for flag structural anomalies down to the micron layer, ignoring ambient lighting drift.
 
+---
+
+## Training pipeline
+
 ![pipeline](plots/vision_agent_pipeline.svg)
 
 
