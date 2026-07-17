@@ -14,6 +14,8 @@ The model was finetuned from COCO pretrained YOLOv8n weights using standard tran
 
 <br>
 
+<br>
+
 ## Training pipeline
 
 ![pipeline](plots/vision_agent_pipeline.svg)
