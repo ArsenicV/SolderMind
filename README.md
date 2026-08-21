@@ -29,13 +29,20 @@ The model was trained on [roboflow PCB Defect detection dataset (V2)](https://un
  
 | **Class** | **Sample size** | 
 | --------------- | --------------- |
-| Defect 01    | Row 1, Col 2    | 
-| Defect 02   | Row 2, Col 2    | 
-| Defect 03   | Row 2, Col 2    | 
-| Defect 04   | Row 2, Col 2    | 
-| Defect 05   | Row 2, Col 2    | 
-| Defect 06   | Row 2, Col 2    | 
-| Defect 07   | Row 2, Col 2    | 
+| Defect 01    | - | 
+| Defect 02   | -   | 
+| Defect 03   | -    | 
+| Defect 04   | -   | 
+| Defect 05   | -  | 
+| Defect 06   | - | 
+| Defect 07   | -  | 
+
+Dataset split: 522 images for training set, 48 images for valid set, 38 images for test set
+
+##### Preprocessing:
+
+[*] Images resized to 640*640
+[*] Applied auto orient.
 
 ## Model Selection
 
@@ -46,10 +53,10 @@ Considering the limited storage and RAM footprint, chose Yolo v8 Nano model for 
 
 | **Metric** | **Training** | **Testing** |
 | --------------- | --------------- |------------|
-| Precision    | Row 1, Col 2    | |
-| Recall    | Row 2, Col 2    | |
-| mAP@50    | Row 1, Col 2    | |
-| mAP@50-95    | Row 2, Col 2    | |
+| Precision    | 0.9950   | 0.9904 |
+| Recall    | 1.0    | 0.9951 |
+| mAP@50    | 0.995    | 0.9946 |
+| mAP@50-95    | 0.8354 | 0.8214 |
 
 
 
