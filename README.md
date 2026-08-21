@@ -41,8 +41,8 @@ Dataset split: 522 images for training set, 48 images for valid set, 38 images f
 
 ##### Preprocessing:
 
-[*] Images resized to 640*640
-[*] Applied auto orient.
+-  Images resized to 640*640
+-  Applied auto orient.
 
 ## Model Selection
 
