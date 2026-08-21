@@ -26,11 +26,16 @@ The model was finetuned from COCO pretrained YOLOv8n weights using standard tran
 The model was trained on [roboflow PCB Defect detection dataset (V2)](https://universe.roboflow.com/uni-4sdfm/pcb-defects)
 
 ##### Class Distribution:
- | **Metric** | **Training** | **Testing** |
-| --------------- | --------------- |------------|
-| Row 1, Col 1    | Row 1, Col 2    | |
-| Row 2, Col 1    | Row 2, Col 2    | |
-
+ 
+| **Class** | **Sample size** | 
+| --------------- | --------------- |
+| Defect 01    | Row 1, Col 2    | 
+| Defect 02   | Row 2, Col 2    | 
+| Defect 03   | Row 2, Col 2    | 
+| Defect 04   | Row 2, Col 2    | 
+| Defect 05   | Row 2, Col 2    | 
+| Defect 06   | Row 2, Col 2    | 
+| Defect 07   | Row 2, Col 2    | 
 
 ## Model Selection
 
@@ -39,7 +44,12 @@ Considering the limited storage and RAM footprint, chose Yolo v8 Nano model for 
 
 ## Evaluations
 
-
+| **Metric** | **Training** | **Testing** |
+| --------------- | --------------- |------------|
+| Precision    | Row 1, Col 2    | |
+| Recall    | Row 2, Col 2    | |
+| mAP@50    | Row 1, Col 2    | |
+| mAP@50-95    | Row 2, Col 2    | |
 
 
 
