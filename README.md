@@ -39,15 +39,20 @@ The model was trained on [roboflow PCB Defect detection dataset (V2)](https://un
 
 Dataset split: 522 images for training set, 48 images for valid set, 38 images for test set
 
+<br>
+
 ##### Preprocessing:
 
 -  Images resized to 640*640
 -  Applied auto orient.
 
+<br>
+
 ## Model Selection
 
 Considering the limited storage and RAM footprint, chose Yolo v8 Nano model for edge deployment.
 
+<br>
 
 ## Evaluations
 
