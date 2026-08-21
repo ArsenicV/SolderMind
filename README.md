@@ -21,6 +21,26 @@ The model was finetuned from COCO pretrained YOLOv8n weights using standard tran
 ![pipeline](plots/vision_agent_pipeline.svg)
 
 
+## Dataset
+
+The model was trained on [roboflow PCB Defect detection dataset (V2)](https://universe.roboflow.com/uni-4sdfm/pcb-defects)
+
+##### Class Distribution:
+ | Column 1 Header | Column 2 Header |
+| --------------- | --------------- |
+| Row 1, Col 1    | Row 1, Col 2    |
+| Row 2, Col 1    | Row 2, Col 2    |
+
+
+## Model Selection
+
+Considering the limited storage and RAM footprint, chose Yolo v8 Nano model for edge deployment.
+
+
+## Evaluations
+
+
+
 
 
 
